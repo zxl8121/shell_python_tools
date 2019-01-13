@@ -21,7 +21,7 @@ function add_absolute_path()
 }
 function product_cscope_files()
 {
-	find $DIR -name "*.h" -o -name "*.c" -o -name "*.cc" -name "*.cpp" > $SRC_FILE
+	find $DIR -name "*.h" -o -name "*.c" -o -name "*.cc" -o -name "*.cpp" > $SRC_FILE
 }
 function product_cscope_out()
 {
